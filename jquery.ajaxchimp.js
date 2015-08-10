@@ -124,6 +124,7 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
                     dataType: 'jsonp',
                     error: function (resp, text) {
                         console.log('mailchimp ajax submit error: ' + text);
+                        alert("Looks like something went wrong!\n\nWe think you might have an ad blocker enabled?");
                     }
                 });
 
