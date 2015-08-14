@@ -143,6 +143,7 @@ a:hover, a:active {text-decoration:none; color:#3C9727; opacity: 0.7;}
 }
 
 .secondDiv {
+  margin-top: -20px;
   margin-bottom: -100px;
   height: 150px;
   background-color: #333;
